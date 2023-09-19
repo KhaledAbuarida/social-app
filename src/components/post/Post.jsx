@@ -1,17 +1,18 @@
 import './post.css'
 import MoreVertIcon from '@mui/icons-material/MoreVert';
+import { Users } from '../../dummyData'
+
 
 export default function Post({post}) {
-  console.log(post);
   return (
     <div className='post'>
       <div className="postContainer">
         <div className="postUpperPart">
           <div className="leftUpperPart">
-            <img className='postProfileImg' src="/assets/person/khaled.jpg" alt="" />
+            <img className='postProfileImg' src={Users.filter((u) => u.id === post.userId)[0].profilePicture} alt="" />
             <div>
-              <span className='postProfileName'>Khaled Abuarida</span>
-              <div className='postDate'>5 mins ago</div>
+              <span className='postProfileName'>{Users.filter((u) => u.id === post.userId)[0].username}</span>
+              <div className='postDate'>{post.date}</div>
             </div>
           </div>
           <div className="rightUpperPart">
@@ -21,19 +22,19 @@ export default function Post({post}) {
         <div className="postMiddlePart">
           <div className="content">
             <div className="postText">
-              Hello this is my first post :)
+              {post.desc}
             </div>
-            <img className='postPic' src="/assets/posts/5.jpeg" alt="" />
+            <img className='postPic' src={post.photo} alt="" />
           </div>
         </div>
         <div className="postLowerPart">
           <div className="reactions">
             <img className='likeIcon' src="/assets/like.png" alt="" />
             <img className='likeIcon' src="/assets/heart.png" alt="" />
-            <span className='likeCount'>67 people like this</span>
+            <span className='likeCount'>{post.like} people like this</span>
           </div>
           <div className="comments">
-            <span>19 Comment</span>
+            <span>{post.comment} Comments</span>
           </div>
         </div>
       </div>
