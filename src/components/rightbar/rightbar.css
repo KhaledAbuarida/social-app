@@ -1,3 +1,5 @@
 .rightBar {
     flex: 4;
+    height: calc(100vh - 70px);
+    background-color: blueviolet;
 }
