@@ -1,5 +1,75 @@
 .rightBar {
-    flex: 4;
+    flex: 3;
     height: calc(100vh - 70px);
-    background-color: blueviolet;
+    padding: 20px;
 }
+.rightbarHr {
+    margin: 30px 0
+}
+/* birthday section */
+.birthdaySection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.giftImg {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.birthdayText {
+
+}
+/* ---------------- */
+
+/* ad section */
+.adImg {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 4px;
+}
+.adContainer span {
+    font-weight: 500;
+    color: gray;
+}
+/* ---------- */
+
+/* online friends section */
+.onlineFriendsSection .header {
+    font-weight: bold;
+    font-size: large;
+
+}
+.friendImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.friendList {
+    list-style: none;
+    margin-top: 15px;
+}
+.listItem {
+    display: flex;
+    align-items: center;
+}
+.friendName {
+    font-weight: 500;
+}
+.profilePic {
+    position: relative;
+}
+.onlineDot {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(38, 215, 38);
+    border-radius: 50%;
+    position: absolute; 
+    top: 0;
+    right: 4px;
+    border: 2px solid #fff;
+}
+
+
+/* ---------------------- */
