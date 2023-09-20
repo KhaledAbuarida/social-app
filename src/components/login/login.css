@@ -1,0 +1,85 @@
+.login {
+    display: flex;
+    background-color: #F0F2F6;
+    width: 100%;
+    height: 100vh;
+}
+.leftPart, .rightPart {
+    flex: 6;
+}
+
+/* login left part */
+.leftPart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.leftPart .logo {
+    font-size: 4rem;
+    font-weight: 900;
+    color: #1875F0;
+}
+.leftPart .proposal {
+    font-size: 24px;
+    width: 50%;
+    text-align: center;
+    font-weight: 300;
+}
+/* ------------------ */
+
+/* login right part */
+.rightPart {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.rightPart .loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.loginForm .password, .email  {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.loginForm .email, .password:focus {
+    outline: none;
+}
+.loginBtn, .createBtn {
+    height: 50px;
+    border-radius: 10px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.loginBtn {
+    background-color: #1875F0;
+}
+.createBtn {
+    width: 70%;
+    background-color: #40AB28;
+    margin: auto;
+}
+.forgetPassword {
+    border:none;
+    background-color: #fff;
+    color: #1875F0;
+    outline: none;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+/* ---------------- */
