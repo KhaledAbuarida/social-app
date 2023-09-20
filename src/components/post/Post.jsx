@@ -1,9 +1,19 @@
 import './post.css'
 import MoreVertIcon from '@mui/icons-material/MoreVert';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 import { Users } from '../../dummyData'
+import { useState } from 'react';
 
 
 export default function Post({post}) {
+  const [like, setLike] = useState(post.like);
+  const [isLiked, setIsLiked] = useState(false);
+
+  const likeHandler = () => {
+    setLike(isLiked ? like-1 : like+1);
+    setIsLiked(!isLiked);
+  }
   return (
     <div className='post'>
       <div className="postContainer">
@@ -29,9 +39,8 @@ export default function Post({post}) {
         </div>
         <div className="postLowerPart">
           <div className="reactions">
-            <img className='likeIcon' src="/assets/like.png" alt="" />
-            <img className='likeIcon' src="/assets/heart.png" alt="" />
-            <span className='likeCount'>{post.like} people like this</span>
+            {isLiked ? <FavoriteIcon className='likedHeart' onClick={likeHandler}/> : <FavoriteBorderIcon className='unLikedHeart' onClick={likeHandler}/> }
+            <span className='likeCount'>{like} people like this</span>
           </div>
           <div className="comments">
             <span>{post.comment} Comments</span>

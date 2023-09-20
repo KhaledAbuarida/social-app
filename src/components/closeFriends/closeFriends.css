@@ -1,0 +1,20 @@
+/* sidebar friend list */
+.friendListItem .friendImg {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.friendList {
+    padding: 0;
+    margin: 0;
+}
+.friendListItem {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.friendListItem .friendName {
+    margin-left: 8px;
+}
+/* ------------------- */

@@ -55,18 +55,26 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: gray;
     padding-top: 10px;
+    color: gray;
 }
 .reactions {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
-.likeIcon {
-    width: 25px;
-    height: 25px;
+.reactions .likedHeart{
+    color: #e1101a;
+    font-size: 2rem;
+}
+.reactions .unLikedHeart{
+    font-size: 2rem;
 }
 .likeCount {
     margin-left: 10px;
+}
+.comments {
+    border-bottom: 1px dashed gray;
+    cursor: pointer;
 }
 /* --------------- */

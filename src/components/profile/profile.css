@@ -1,0 +1,30 @@
+.profile {
+    display: flex;
+}
+
+/* profile upper part (COVER) */
+.profile .profileRightPart {
+    flex: 9;
+}
+.profileCover {
+    position: relative;
+}
+.coverImg {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.userImg {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 170px;
+    border: 4px solid #fff;
+
+}
+/* -------------------------- */

@@ -1,0 +1,31 @@
+.profilePic .friendImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px 10px 0 0 ;
+    
+}
+.friendList {
+    list-style: none;
+    margin-top: 15px;
+}
+.listItem {
+    display: flex;
+    align-items: center;
+}
+.friendName {
+    font-weight: 500;
+}
+.profilePic {
+    position: relative;
+}
+.profilePic .onlineDot {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(38, 215, 38);
+    border-radius: 50%;
+    position: absolute; 
+    top: 6px;
+    right: 4px;
+    border: 2px solid #fff;
+}

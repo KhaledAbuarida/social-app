@@ -1,6 +1,6 @@
 .rightBar {
     flex: 3;
-    height: calc(100vh - 70px);
+    /* height: calc(100vh - 70px); */
     padding: 20px;
 }
 .rightbarHr {
@@ -17,9 +17,7 @@
     height: 50px;
     margin-right: 10px;
 }
-.birthdayText {
 
-}
 /* ---------------- */
 
 /* ad section */
@@ -40,36 +38,7 @@
     font-size: large;
 
 }
-.friendImg {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
-}
-.friendList {
-    list-style: none;
-    margin-top: 15px;
-}
-.listItem {
-    display: flex;
-    align-items: center;
-}
-.friendName {
-    font-weight: 500;
-}
-.profilePic {
-    position: relative;
-}
-.onlineDot {
-    width: 12px;
-    height: 12px;
-    background-color: rgb(38, 215, 38);
-    border-radius: 50%;
-    position: absolute; 
-    top: 0;
-    right: 4px;
-    border: 2px solid #fff;
-}
+
 
 
 /* ---------------------- */

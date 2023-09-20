@@ -1,4 +1,6 @@
+import Online from '../online/Online'
 import './rightbar.css'
+import { Users } from '../../dummyData'
 
 export default function Rightbar() {
   return (
@@ -24,62 +26,9 @@ export default function Rightbar() {
           Online Friends
         </div>
         <ul className="friendList">
-          <li className="listItem">
-            <div className="profilePic">
-              <img className='friendImg' src="/assets/person/7.jpeg" alt="" />
-              <span className='onlineDot'></span>
-            </div>
-            <span className='friendName'>Khaled Abuarida</span>
-          </li>
-          <li className="listItem">
-            <div className="profilePic">
-              <img className='friendImg' src="/assets/person/1.jpeg" alt="" />
-              <span className='onlineDot'></span>
-            </div>
-            <span className='friendName'>Rawda Ali</span>
-          </li>
-          <li className="listItem">
-            <div className="profilePic">
-              <img className='friendImg' src="/assets/person/2.jpeg" alt="" />
-              <span className='onlineDot'></span>
-            </div>
-            <span className='friendName'>Hossam Mostafa</span>
-          </li>
-          <li className="listItem">
-            <div className="profilePic">
-              <img className='friendImg' src="/assets/person/3.jpeg" alt="" />
-              <span className='onlineDot'></span>
-            </div>
-            <span className='friendName'>Hassan Ahmed</span>
-          </li>
-          <li className="listItem">
-            <div className="profilePic">
-              <img className='friendImg' src="/assets/person/4.jpeg" alt="" />
-              <span className='onlineDot'></span>
-            </div>
-            <span className='friendName'>Ebrahim Abdo</span>
-          </li>
-          <li className="listItem">
-            <div className="profilePic">
-              <img className='friendImg' src="/assets/person/5.jpeg" alt="" />
-              <span className='onlineDot'></span>
-            </div>
-            <span className='friendName'>Khaled Abuarida</span>
-          </li>
-          <li className="listItem">
-            <div className="profilePic">
-              <img className='friendImg' src="/assets/person/6.jpeg" alt="" />
-              <span className='onlineDot'></span>
-            </div>
-            <span className='friendName'>Khaled Abuarida</span>
-          </li>
-          <li className="listItem">
-            <div className="profilePic">
-              <img className='friendImg' src="/assets/person/8.jpeg" alt="" />
-              <span className='onlineDot'></span>
-            </div>
-            <span className='friendName'>Nada Ebrahim</span>
-          </li>
+          {Users.map((u) => ( 
+            <Online key={u.id} user={u}/>
+          ))}
         </ul>
       </div>
 

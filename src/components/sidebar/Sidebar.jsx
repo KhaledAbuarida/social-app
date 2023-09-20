@@ -8,6 +8,8 @@ import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
 import EventIcon from '@mui/icons-material/Event';
 import SchoolIcon from '@mui/icons-material/School';
+import { Users } from '../../dummyData'
+import CloseFriends from '../closeFriends/CloseFriends';
 
 export default function Sidebar() {
   return (
@@ -54,115 +56,9 @@ export default function Sidebar() {
         <button className='sidebarBtn'>show more</button>
         <hr className='sidebarHr'/>
         <ul className="friendList">
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          <li className="friendListItem">
-            <img className="friendImg" src="/assets/person/1.jpeg" alt="friend" />
-            <span className="friendName">John Don</span>
-          </li>
-          
+            {Users.toReversed().map((u) => (
+              <CloseFriends key={u.id} user={u} />
+            ))}
         </ul>
       </div>
     </div>

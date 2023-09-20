@@ -1,10 +1,11 @@
-import Home from './pages/home/Home.jsx'
+import Profile from './components/profile/Profile.jsx';
 
 function App() {
   return (
-    <div>
-      <Home />
-    </div>
+    <>
+      {/* <Home /> */}
+      <Profile />
+    </>
   );
 }
 
