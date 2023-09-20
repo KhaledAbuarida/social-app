@@ -14,10 +14,12 @@ export default function Profile() {
                 <div className="profileUpperPart">
                     <div className="profileCover">
                         <img className='coverImg' src='/assets/posts/9.jpeg' alt="" />
-                        <img className='userImg' src='/assets/person/8.jpeg' alt="" />
+                        <img className='userImg' src='/assets/person/khaled.jpg' alt="" />
                     </div>
-                    <div className="userName">Khaled Abuarida</div>
-                    <div className='bio'>stop being perfect :)</div>
+                    <div className="profileName">
+                        <div className="userName">Khaled Abuarida</div>
+                        <div className='bio'>stop being perfect :)</div>
+                    </div>
                 </div>
                 <div className="profileLowerPart">
                     <Feed />

@@ -9,6 +9,10 @@
 .profileCover {
     position: relative;
 }
+.profileUpperPart {
+    display: flex;
+    flex-direction: column;
+}
 .coverImg {
     width: 100%;
     height: 300px;
@@ -27,4 +31,23 @@
     border: 4px solid #fff;
 
 }
+.profileName {
+    margin-top: 60px;
+    text-align: center;
+}
+.profileName .userName {
+    font-weight: bold;
+    font-size: xx-large;
+}
+.profileName .bio {
+    font-weight: 300;
+}
 /* -------------------------- */
+
+/* profile lower part */
+.profileLowerPart {
+    margin-top: 20px;
+    display: flex;
+}
+
+/* ------------------ */

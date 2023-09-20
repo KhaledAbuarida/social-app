@@ -38,7 +38,52 @@
     font-size: large;
 
 }
-
-
-
 /* ---------------------- */
+
+/* profile rightbar */
+.userInformation .infoList{
+    padding: 0 20px;
+}
+.header {
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin: 15px 20px;
+}
+.infoList {
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.infoList .infoItem {
+    margin: 8px 0;
+}
+.infoItem .infoValue {
+    margin-left: 10px;
+}
+.infoItem .infoKey {
+    font-weight: 400;
+}
+.userFriends .friendsList .friendItem .friendImg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.userFriends .friendsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.friendItem {
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    margin: 25px 0px;
+}
+.friendsList .friendName {
+    font-size: large;
+    text-wrap:wrap;
+}
+/* ---------------- */
