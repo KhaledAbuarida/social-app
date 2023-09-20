@@ -1,10 +1,9 @@
-import Login from './components/login/Login.jsx';
+import Home from './pages/home/Home'
 
 function App() {
   return (
     <>
-      {/* <Home /> */}
-      <Login />
+      <Home />
     </>
   );
 }
