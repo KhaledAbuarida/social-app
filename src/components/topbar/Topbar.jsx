@@ -4,15 +4,16 @@ import SearchIcon from '@mui/icons-material/Search';
 import PersonIcon from '@mui/icons-material/Person';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import ChatIcon from '@mui/icons-material/Chat';
+import { Link } from 'react-router-dom';
 
 export default function Topbar() {
   return (
     <>
       <div className="container">
         <div className="leftSide">
-          <div className="logo">
+          <Link to='/' className="logo">
             Social App
-          </div>
+          </Link>
         </div>
         <div className="center">
           <div className="searchBar">
@@ -22,8 +23,8 @@ export default function Topbar() {
         </div>
         <div className="rightSide">
           <div className="links">
-            <span>Home</span>
-            <span>Timeline</span>
+            <Link to='/' className='homeLink'>Home</Link>
+            <Link to='/' className='homeLink'>TimeLine</Link>
           </div>
           <div className="topbarIcons">
             <div className="friendRequests">
