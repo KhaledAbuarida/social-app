@@ -42,7 +42,9 @@ export default function Topbar() {
             </div>
           </div>
           <div className="profilePic">
-            <img src='/assets/person/1.jpeg' alt="profile Picture" />
+            <Link to='/profile'>
+              <img src='/assets/person/khaled.jpg' alt="" />
+            </Link>
           </div>
         </div>
       </div>

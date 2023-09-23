@@ -31,7 +31,7 @@
 /* login right part */
 .rightPart {
     display: flex;
-    justify-content: start;
+    /* justify-content: start; */
     align-items: center;
 }
 .rightPart .loginForm {
@@ -68,7 +68,7 @@
 .loginBtn {
     background-color: #1875F0;
 }
-.createBtn {
+.loginForm .createBtn {
     width: 70%;
     background-color: #40AB28;
     margin: auto;
