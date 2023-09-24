@@ -1,5 +1,6 @@
 import './topbar.css'
 import React from 'react'
+import HomeIcon from '@mui/icons-material/Home';
 import SearchIcon from '@mui/icons-material/Search';
 import PersonIcon from '@mui/icons-material/Person';
 import NotificationsIcon from '@mui/icons-material/Notifications';
@@ -22,22 +23,23 @@ export default function Topbar() {
           </div>
         </div>
         <div className="rightSide">
-          <div className="links">
-            <Link to='/' className='homeLink'>Home</Link>
-            <Link to='/' className='homeLink'>TimeLine</Link>
-          </div>
           <div className="topbarIcons">
+            <div className="homeIcon">  
+              <Link to='/'>
+                <HomeIcon htmlColor='#fff' />
+              </Link>
+            </div>
             <div className="friendRequests">
-              <PersonIcon />
+              <PersonIcon htmlColor='#fff' />
               <span className="badgeNumber">1</span>
             </div>
             <div className="chat">
-              <ChatIcon />
+              <ChatIcon htmlColor='#fff' />
               <span className="badgeNumber">2</span>
 
             </div>
             <div className="notification">
-              <NotificationsIcon />
+              <NotificationsIcon htmlColor='#fff'/>
               <span className="badgeNumber">14</span>
             </div>
           </div>

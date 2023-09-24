@@ -1,0 +1,89 @@
+[33mcommit da76553a1114936e28efd02bb2f225b2e9ffe546[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: KhaledAbuarida <khaledabuarida0@gmail.com>
+Date:   Sat Sep 23 14:07:33 2023 +0300
+
+    link profile page & deploy to vercel
+
+[33mcommit da383860952a7d0029b9c8c456543dc82a5ad74c[m
+Author: KhaledAbuarida <khaledabuarida0@gmail.com>
+Date:   Fri Sep 22 04:02:53 2023 +0300
+
+    routes
+
+[33mcommit 2830e457312d0eb36a8211f432a0e0eba67f15f2[m
+Author: KhaledAbuarida <khaledabuarida0@gmail.com>
+Date:   Thu Sep 21 20:44:34 2023 +0300
+
+    refactoring share component
+
+[33mcommit ec6938bfecfc08f58d20b1465dad60697d25b78c[m
+Author: KhaledAbuarida <khaledabuarida0@gmail.com>
+Date:   Thu Sep 21 00:28:44 2023 +0300
+
+    register page
+
+[33mcommit 23b4533ce1fd55eab39744c5a589d339e4d64fc0[m
+Author: KhaledAbuarida <khaledabuarida0@gmail.com>
+Date:   Thu Sep 21 00:06:50 2023 +0300
+
+    Login page
+
+[33mcommit 9058f0017e01cbf7af0d97bc366d5d3110bc315e[m
+Author: KhaledAbuarida <khaledabuarida0@gmail.com>
+Date:   Wed Sep 20 21:33:56 2023 +0300
+
+    profile page
+
+[33mcommit 376dae8adf0c5a6602e2f976a3f600e8c510df3a[m
+Author: KhaledAbuarida <khaledabuarida0@gmail.com>
+Date:   Wed Sep 20 18:03:11 2023 +0300
+
+    home page complete
+
+[33mcommit f421fc1d5560526a83f1972a0725385a3eb1ef27[m
+Author: KhaledAbuarida <khaledabuarida0@gmail.com>
+Date:   Tue Sep 19 21:43:44 2023 +0300
+
+    get dynamic post from api
+
+[33mcommit 10946124b9785ee8ecee3b3d11552f930e9539c9[m
+Author: KhaledAbuarida <khaledabuarida0@gmail.com>
+Date:   Tue Sep 19 21:15:26 2023 +0300
+
+    right side bar is complete
+
+[33mcommit d56950ab8bcdc9358660720d2af46b343e04efd1[m
+Author: KhaledAbuarida <khaledabuarida0@gmail.com>
+Date:   Tue Sep 19 19:10:32 2023 +0300
+
+    share post section and posts is ready
+
+[33mcommit 10514edc4f1dffd880e0f2120534f8b134517a3d[m
+Author: KhaledAbuarida <khaledabuarida0@gmail.com>
+Date:   Tue Sep 19 15:19:24 2023 +0300
+
+    sidebar is completed
+
+[33mcommit 6bd8f09be1a963fa13638d9b56adaef23c2b1e1c[m
+Author: KhaledAbuarida <khaledabuarida0@gmail.com>
+Date:   Mon Sep 18 23:39:40 2023 +0300
+
+    divide home page into three parts
+
+[33mcommit 4a7c4f5bddcd360db4c30cd5da067d7b3940b712[m
+Author: KhaledAbuarida <khaledabuarida0@gmail.com>
+Date:   Mon Sep 18 23:19:47 2023 +0300
+
+    topbar is completed
+
+[33mcommit 94465ed69f8f5f857034e31d8a3c135698abf24e[m
+Author: KhaledAbuarida <khaledabuarida0@gmail.com>
+Date:   Mon Sep 18 17:57:49 2023 +0300
+
+    initialize react app
+
+[33mcommit 3d9760b25234a55bbf0cfe23652ce89f9bf410a5[m
+Author: KhaledAbuarida <khaledabuarida0@gmail.com>
+Date:   Mon Sep 18 17:03:30 2023 +0300
+
+    Initialize project using Create React App

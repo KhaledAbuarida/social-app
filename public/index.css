@@ -2,3 +2,36 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+@media screen and (max-width: 992px) {
+    .container .leftSide {
+        flex: 3;
+    }
+    .container .rightSide {
+        flex: 5;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container .leftSide {
+        flex: 3;
+    }
+    .container .center{
+        flex: 4;
+    }
+    .container .rightSide{
+        flex: 5;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .homeContainer .sidebar {
+        flex: 3;
+    }
+    .homeContainer .feed {
+        flex: 9;
+    }
+    .homeContainer .rightbar {
+        display: none;
+    }
+}
