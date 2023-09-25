@@ -4,23 +4,14 @@
 }
 
 @media screen and (max-width: 992px) {
-    .container .leftSide {
+    .topbar-container .leftSide {
         flex: 3;
     }
-    .container .rightSide {
+    .topbar-container .center{
         flex: 5;
     }
-}
-
-@media screen and (max-width: 992px) {
-    .container .leftSide {
-        flex: 3;
-    }
-    .container .center{
+    .topbar-container .rightSide{
         flex: 4;
-    }
-    .container .rightSide{
-        flex: 5;
     }
 }
 
@@ -34,4 +25,55 @@
     .homeContainer .rightbar {
         display: none;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .homeContainer .sidebar {
+        display: none;
+    }
+    .topbar-container .leftSide {
+        flex: 3;
+    }
+    .topbar-container .center{
+        flex: 3;
+    }
+    .topbar-container .rightSide {
+        flex: 4;
+    }
+    .topbar-container .topbarIcons .icon {
+        margin: 0 0px;
+    }
+}
+@media screen and (max-width: 576px) {
+
+    /* share component */
+    .shareLowerPart .shareOption {
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+    cursor: pointer;
+    }
+    .shareLowerPart .shareOption .shareOptionIcon {
+        font-size: 25px;
+        margin-right: 5px;
+    }
+    .shareLowerPart .shareOption .shareOptionText {
+        font-weight: 500;   
+        font-size: .9rem;
+    }
+    .shareOptions .shareBtn {
+        background-color: #1E8449;
+        border-radius: 10px;
+        padding: 10px 5px;
+        width: 60px;
+        font-weight: 500;
+        font-size: .9rem;
+        color: #fff;
+        border: none;   
+        cursor: pointer; 
+    }
+    /* ----------------- */
+
+    /* topbar */
+    /* ------ */
 }

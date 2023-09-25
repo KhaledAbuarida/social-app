@@ -10,43 +10,45 @@ import { Link } from 'react-router-dom';
 export default function Topbar() {
   return (
     <>
-      <div className="container">
-        <div className="leftSide">
-          <Link to='/' className="logo">
-            Social App
-          </Link>
-        </div>
-        <div className="center">
-          <div className="searchBar">
-            <SearchIcon className='searchIcon'/>
-            <input type="text" placeholder='search for a friend, post or video'/>
+      <div className="topbar">
+        <div className="topbar-container">
+          <div className="leftSide">
+            <Link to='/' className="logo">
+              Social App
+            </Link>
           </div>
-        </div>
-        <div className="rightSide">
-          <div className="topbarIcons">
-            <div className="homeIcon">  
-              <Link to='/'>
-                <HomeIcon htmlColor='#fff' />
+          <div className="center">
+            <div className="searchBar">
+              <SearchIcon className='searchIcon'/>
+              <input type="text" placeholder='search for a friend'/>
+            </div>
+          </div>
+          <div className="rightSide">
+            <div className="topbarIcons">
+              <div >  
+                <Link to='/'>
+                  <HomeIcon className="icon homeIcon" htmlColor='#fff'/>
+                </Link>
+              </div>
+              <div >
+                <PersonIcon className="icon friendRequests" htmlColor='#fff' />
+                <span className="badgeNumber">1</span>
+              </div>
+              <div >
+                <ChatIcon className="icon chat" htmlColor='#fff' />
+                <span className="badgeNumber">2</span>
+
+              </div>
+              <div >
+                <NotificationsIcon className="icon notification" htmlColor='#fff'/>
+                <span className="badgeNumber">14</span>
+              </div>
+            </div>
+            <div className="profilePic">
+              <Link to='/profile'>
+                <img src='/assets/person/khaled.jpg' alt="" />
               </Link>
             </div>
-            <div className="friendRequests">
-              <PersonIcon htmlColor='#fff' />
-              <span className="badgeNumber">1</span>
-            </div>
-            <div className="chat">
-              <ChatIcon htmlColor='#fff' />
-              <span className="badgeNumber">2</span>
-
-            </div>
-            <div className="notification">
-              <NotificationsIcon htmlColor='#fff'/>
-              <span className="badgeNumber">14</span>
-            </div>
-          </div>
-          <div className="profilePic">
-            <Link to='/profile'>
-              <img src='/assets/person/khaled.jpg' alt="" />
-            </Link>
           </div>
         </div>
       </div>

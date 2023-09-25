@@ -1,12 +1,16 @@
 /* Container of Tob Bar */
-.container {
-    height: 70px;
+.topbar {
     width: 100%;
-    display: flex;
-    align-items: center;
-    background-color: #1877f2;
     position: sticky;
     top: 0;
+    background-color: #1877f2;
+}
+
+.topbar-container {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     z-index: 100;
 }
 /* --------------------- */
@@ -14,7 +18,7 @@
 
 /* left side part of the tob bar */
 .leftSide {
-    flex: 3
+    flex: 3.2
 }
 .logo {
     font-size: 2rem;
@@ -29,7 +33,7 @@
 
 /* the center part of the tob bar */
 .center {
-    flex: 5;
+    flex: 5.5;
 }
 .searchBar {
     width: 100%;
@@ -56,14 +60,15 @@
 .searchBar input::placeholder {
     font-size: 1rem;
 }
+
 /* ------------------------------ */
 
 
 /* right side part of the tob bar */
 .rightSide {
-    flex: 4;
+    flex: 3.5;
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
     align-items: center;
     color: #fff;
 }
@@ -74,6 +79,7 @@
     object-fit: cover;
     cursor: pointer;
     border: 2px solid #fff;
+    margin: 0 20px;
 }
 .topbarIcons {
     display: flex;
@@ -83,6 +89,11 @@
     margin: 10px;
     position: relative;
     cursor: pointer;
+}
+.topbarIcons .icon {
+    font-size: 1.8rem;
+    margin: 0 2px;
+
 }
 .topbarIcons div:visited {
     color: #fff;
