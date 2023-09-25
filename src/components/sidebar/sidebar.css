@@ -1,4 +1,4 @@
-.sideBar {
+.sidebar {
     flex: 3;
     height: calc(100vh - 70px);
     overflow-y: scroll;
@@ -27,9 +27,13 @@
 .sidebarListItem {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
     font-size: 1rem;
     cursor: pointer;
+    padding: 7px 5px;
+    border-radius: 5px;
+}
+.sidebarListItem:hover {
+    background-color: gainsboro;
 }
 .sidebarListItem span {
     margin-left: 8px;
@@ -38,13 +42,18 @@
     margin: 25px 0;
 }
 .sidebarBtn {
-    margin-top: 5px;
+    margin: 8px 0px;
     width: 100px;
     height: 30px;
     border-radius: 5px;
     border: none;
     background-color: #dbdbdb;
-    font-size: .9rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.sidebarBtn:hover {
+    background-color: gray;
+    color: #fff;
 }
 /* --------------- */
 

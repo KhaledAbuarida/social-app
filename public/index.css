@@ -2,3 +2,132 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+@media screen and (max-width: 1200px) {
+    .homeContainer .sidebar {
+        flex: 3;
+    }
+    .homeContainer .feed {
+        flex: 9;
+    }
+    .homeContainer .rightbar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .topbar-container .leftSide {
+        flex: 3;
+    }
+    .topbar-container .center{
+        flex: 5;
+    }
+    .topbar-container .rightSide{
+        flex: 4;
+    }
+    .topbar .logo {
+        width: 110px;
+    }
+    
+
+}
+
+@media screen and (max-width: 768px) {
+    .homeContainer .sidebar {
+        display: none;
+    }
+    .topbar-container .leftSide {
+        flex: 2.5;
+    }
+    .topbar-container .center{
+        flex: 5;
+    }
+    .topbar-container .rightSide {
+        flex: 4.5;
+    }
+    .topbar-container .topbarIcons .icon {
+        margin: 0 0px;
+    }
+}
+@media screen and (max-width: 576px) {
+
+    /* share component */
+    .shareLowerPart .shareOption {
+        margin-right: 0px;
+    }
+    .shareLowerPart .shareOption .shareOptionIcon {
+        font-size: 25px;
+    }
+    .shareLowerPart .shareOption .shareOptionText {
+        font-weight: 500;   
+        font-size: .9rem;
+    }
+    .shareOptions .shareBtn {
+        padding: 8px 5px;
+        width: 60px;
+        font-size: .9rem;
+    }
+    /* ----------------- */
+
+
+    /* topbar */
+    .topbar .rightSide {
+        flex: 2;
+    }
+    .topbar .center {
+        flex: 5;
+    }
+    .topbar .leftSide {
+        flex: 3;
+    }
+    .topbar .topbar-container {
+        height: 60px;
+    }
+    .topbar .rightSide .profilePic img {
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    .topbar .rightSide .topbarIcons .icon {
+        font-size: 1.3rem;
+        margin: 0;
+    }
+    .topbar .rightSide .topbarIcons {
+        padding: 0;
+    }
+    .topbar .topbarIcons .badgeNumber {
+        width: 17px;
+        height: 17px;
+        font-size: 12px;
+        top: -6px;
+        left: 13px;
+    }
+    .topbar .rightSide .homeIconContainer {
+        display: none;
+    }
+
+    .topbar .center .searchBar {
+        height: 28px;
+        
+    }
+    .topbar .center .searchBar .searchIcon {
+        font-size: 1.5rem;
+        margin-left: 5px;
+    }
+    .topbar .center .searchBar input::placeholder {
+        font-size: .85rem;
+    }
+    .topbar .logo {
+        width: 100px;
+    }
+    
+    
+    /* ------ */
+}
+
+@media screen and (max-width: 480px) {
+    .topbar .logo {
+        width: 90px;
+    }
+}
+

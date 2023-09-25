@@ -1,14 +1,14 @@
 .shareContainer {
     border-radius: 15px;
     padding: 25px;
-    box-shadow: 4px 4px 10px -2px rgba(0,0,0,0.33);
-    -webkit-box-shadow: 4px 4px 10px -2px rgba(0,0,0,0.33);
-    -moz-box-shadow: 4px 4px 10px -2px rgba(0,0,0,0.33);
-    margin: 20px 0;
+    margin: 20px;
+    -webkit-box-shadow: -1px 3px 10px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 3px 10px -4px rgba(0,0,0,0.75);
+box-shadow: -1px 3px 10px -4px rgba(0,0,0,0.75);
 }
 
 /* Share Upper Part */
-.shareUpperPart .profileImg {
+.shareContainer .shareUpperPart .profileImg {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -20,7 +20,7 @@
     align-items: center;
 }
 .shareUpperPart .shareInput {
-    width: 100%;
+    width: 90%;
     height: 30px;
     border: none;
 }
@@ -37,19 +37,21 @@
 }
 
 /* Share Lower Part */
-.shareLowerPart {
-    display: flex;
-    justify-content: space-between;
 
-}
 .shareOptions {
     display: flex;
+    justify-content: space-around;
 }
 .shareOption {
     display: flex;
     align-items: center;
     margin-right: 40px;
     cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+}
+.shareOption:hover {
+    background-color: gainsboro;
 }
 .shareOption .shareOptionIcon {
     font-size: 30px;

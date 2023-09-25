@@ -7,8 +7,7 @@ import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions';
 export default function Share() {
   return (
     <div className='shareContainer' >
-        <div className="shareUpperPart">
-            
+        <div className="shareUpperPart">      
             <img className='profileImg' src="/assets/person/1.jpeg" alt="profilePic" />
             <input className='shareInput' placeholder="What's in your mind?" type="text"  />
         </div>
@@ -17,7 +16,7 @@ export default function Share() {
             <div className="shareOptions">
                 <div className="shareOption">
                     <PermMediaIcon htmlColor='#28B463' className='shareOptionIcon'/>
-                    <span className="shareOptionText"> Photo or Video </span>
+                    <span className="shareOptionText"> Photos </span>
                 </div>
                 <div className="shareOption">
                     <LabelIcon htmlColor='#2471A3' className='shareOptionIcon'/>
@@ -31,8 +30,9 @@ export default function Share() {
                     <EmojiEmotionsIcon htmlColor='#F1C40F' className='shareOptionIcon'/>
                     <span className='shareOptionText'>Feelings</span>
                 </div>
+                <button className="shareBtn">Share</button>
+
             </div>
-            <button className="shareBtn">Share</button>
         </div>
     </div>
   )

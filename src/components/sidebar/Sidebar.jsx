@@ -13,7 +13,7 @@ import CloseFriends from '../closeFriends/CloseFriends';
 
 export default function Sidebar() {
   return (
-    <div className='sideBar'>
+    <div className='sidebar'>
       <div className="sidebarWrapper">
         <ul className="sidebarList">
           <li className='sidebarListItem'>
