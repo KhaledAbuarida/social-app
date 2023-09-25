@@ -22,10 +22,7 @@ export default function Profile() {
                         <div className='bio'>stop being perfect :)</div>
                     </div>
                 </div>
-                <div className="profileLowerPart">
-                    <Feed />
-                    <UserInfo />
-                </div>
+                <UserInfo />
             </div>
         </div>
     </>

@@ -1,12 +1,20 @@
 /* profile rightbar */
-.userInformation .infoList{
-    padding: 0 20px;
+
+.userInformation {
+    padding: 20px;
 }
-.header {
+.userInformation .header, .userFriends .header {
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+    border-radius: 5px;
     font-weight: bold;
     font-size: 1.4rem;
     margin: 15px 5px;
 }
+.userInformation .infoList{
+    padding: 0 20px;
+}
+
 .infoList {
     list-style: none;
     padding: 0;
@@ -22,6 +30,9 @@
 }
 .infoItem .infoKey {
     font-weight: 400;
+}
+.userFriends {
+    padding: 0 20px 20px 20px;
 }
 .userFriends .friendsList .friendItem .friendImg {
     width: 100px;

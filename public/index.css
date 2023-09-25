@@ -48,6 +48,13 @@
     .topbar-container .topbarIcons .icon {
         margin: 0 0px;
     }
+    .profile .profileRightPart {
+        /* flex: 12; */
+        flex: 5;
+    }
+    .profile .sidebar {
+        flex: 5;
+    }
 }
 @media screen and (max-width: 576px) {
 
@@ -66,6 +73,9 @@
         padding: 8px 5px;
         width: 60px;
         font-size: .9rem;
+    }
+    .profile .sidebar {
+        display: none;
     }
     /* ----------------- */
 
