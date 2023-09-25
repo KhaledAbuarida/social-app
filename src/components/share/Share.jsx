@@ -7,8 +7,7 @@ import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions';
 export default function Share() {
   return (
     <div className='shareContainer' >
-        <div className="shareUpperPart">
-            
+        <div className="shareUpperPart">      
             <img className='profileImg' src="/assets/person/1.jpeg" alt="profilePic" />
             <input className='shareInput' placeholder="What's in your mind?" type="text"  />
         </div>

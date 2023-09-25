@@ -25,7 +25,7 @@ export default function Topbar() {
           </div>
           <div className="rightSide">
             <div className="topbarIcons">
-              <div >  
+              <div className='homeIconContainer'>  
                 <Link to='/'>
                   <HomeIcon className="icon homeIcon" htmlColor='#fff'/>
                 </Link>

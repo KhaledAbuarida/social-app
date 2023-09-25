@@ -4,6 +4,7 @@
     position: sticky;
     top: 0;
     background-color: #1877f2;
+    z-index: 100;
 }
 
 .topbar-container {
@@ -11,7 +12,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 100;
 }
 /* --------------------- */
 
@@ -36,7 +36,7 @@
     flex: 5.5;
 }
 .searchBar {
-    width: 100%;
+    width: 95%;
     height: 35px;
     background-color: #fff;
     border-radius: 20px;
