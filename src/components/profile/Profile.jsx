@@ -3,6 +3,7 @@ import Topbar from '../topbar/Topbar'
 import Feed from '../feed/Feed.jsx';
 import Rightbar from '../rightbar/Rightbar.jsx';
 import Sidebar from '../sidebar/Sidebar.jsx';
+import UserInfo from '../userInfo/UserInfo';
 
 export default function Profile() {
   return (
@@ -23,7 +24,7 @@ export default function Profile() {
                 </div>
                 <div className="profileLowerPart">
                     <Feed />
-                    <Rightbar profile/>
+                    <UserInfo />
                 </div>
             </div>
         </div>
