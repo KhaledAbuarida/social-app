@@ -129,5 +129,14 @@
     .topbar .logo {
         width: 90px;
     }
+    .share .shareLowerPart .locationOption {
+        display: none;
+    }
+    .topbar .center .searchBar {
+        display: none;
+    }
+}
+@media screen and (max-width: 375px) {
+
 }
 
