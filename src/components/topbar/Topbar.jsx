@@ -13,8 +13,8 @@ export default function Topbar() {
       <div className="topbar">
         <div className="topbar-container">
           <div className="leftSide">
-            <Link to='/' className="logo">
-              Social App
+            <Link to='/' >
+              <img className="logo" src="/assets/logo.png" alt="" />
             </Link>
           </div>
           <div className="center">

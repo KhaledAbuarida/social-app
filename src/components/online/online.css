@@ -10,8 +10,14 @@
     margin-top: 15px;
 }
 .listItem {
+    padding-left: 5px;
     display: flex;
     align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.listItem:hover {
+    background-color: gainsboro;
 }
 .friendName {
     font-weight: 500;
