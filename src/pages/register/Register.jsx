@@ -2,7 +2,7 @@ import './register.css'
 
 export default function Register() {
   return (
-    <div className="login">
+    <div className="register">
         <div className="leftPart">
             <h1 className="logo">
                 Social App
@@ -10,7 +10,7 @@ export default function Register() {
             <div className="proposal">Connect with friends and the world around you on Social App</div>
         </div>
         <div className="rightPart">
-            <div className="loginForm">
+            <div className="registerForm">
                 <input className='email' placeholder='Username' />
                 <input className='email' placeholder='Email' />
                 <input className='password' placeholder='Password'/>

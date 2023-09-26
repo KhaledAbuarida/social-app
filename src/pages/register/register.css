@@ -1,26 +1,26 @@
-.login {
+.register {
     display: flex;
     background-color: #F0F2F6;
     width: 100%;
     height: 100vh;
 }
-.leftPart, .rightPart {
+.register .leftPart, .rightPart {
     flex: 6;
 }
 
 /* login left part */
-.leftPart {
+.register .leftPart {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.leftPart .logo {
+.register .leftPart .logo {
     font-size: 4rem;
     font-weight: 900;
     color: #1875F0;
 }
-.leftPart .proposal {
+.register .leftPart .proposal {
     font-size: 24px;
     width: 50%;
     text-align: center;
@@ -29,12 +29,12 @@
 /* ------------------ */
 
 /* login right part */
-.rightPart {
+.register .rightPart {
     display: flex;
     /* justify-content: start; */
     align-items: center;
 }
-.rightPart .loginForm {
+.register .rightPart .loginForm {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,7 +43,7 @@
     padding: 30px;
     border-radius: 10px;
 }
-.loginForm .password, .email  {
+.register .registerForm .password, .email  {
     height: 50px;
     border-radius: 10px;
     border: 1px solid gray;
@@ -52,10 +52,10 @@
     padding-left: 20px;
 }
 
-.loginForm .email, .password:focus {
+.register .registerForm .email, .password:focus {
     outline: none;
 }
-.loginBtn, .createBtn {
+.register .loginBtn, .createBtn {
     height: 50px;
     border-radius: 10px;
     font-size: 24px;
@@ -65,10 +65,10 @@
     margin-bottom: 15px;
     cursor: pointer;
 }
-.loginBtn {
+.register .loginBtn {
     background-color: #1875F0;
 }
-.createBtn {
+.register .createBtn {
     width: 40%;
     background-color: #40AB28;
     margin: auto;

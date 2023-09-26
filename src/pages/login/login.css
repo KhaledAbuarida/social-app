@@ -1,26 +1,24 @@
-.login {
+.loginPage {
     display: flex;
     background-color: #F0F2F6;
     width: 100%;
     height: 100vh;
 }
-.leftPart, .rightPart {
+.loginPage .leftPart, .rightPart {
     flex: 6;
 }
 
 /* login left part */
-.leftPart {
+.loginPage .leftPart {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.leftPart .logo {
-    font-size: 4rem;
-    font-weight: 900;
-    color: #1875F0;
+.loginPage .leftPart .logo {
+    width: 300px;
 }
-.leftPart .proposal {
+.loginPage .leftPart .proposal {
     font-size: 24px;
     width: 50%;
     text-align: center;
@@ -29,21 +27,21 @@
 /* ------------------ */
 
 /* login right part */
-.rightPart {
+.loginPage .rightPart {
     display: flex;
-    /* justify-content: start; */
     align-items: center;
+    padding: 10px
 }
-.rightPart .loginForm {
+.loginPage .rightPart .loginForm {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #fff;
-    width: 60%;
+    width: 100%;
     padding: 20px;
     border-radius: 10px;
 }
-.loginForm .password, .email  {
+.loginPage .loginForm .password, .email  {
     height: 50px;
     border-radius: 10px;
     border: 1px solid gray;
@@ -52,10 +50,10 @@
     padding-left: 20px;
 }
 
-.loginForm .email, .password:focus {
+.loginPage .loginForm .email, .password:focus {
     outline: none;
 }
-.loginBtn, .createBtn {
+.loginPage .loginBtn, .createBtn {
     height: 50px;
     border-radius: 10px;
     font-size: 24px;
@@ -65,15 +63,15 @@
     margin-bottom: 15px;
     cursor: pointer;
 }
-.loginBtn {
+.loginPage .loginBtn {
     background-color: #1875F0;
 }
-.loginForm .createBtn {
+.loginPage .loginForm .createBtn {
     width: 70%;
     background-color: #40AB28;
     margin: auto;
 }
-.forgetPassword {
+.loginPage .forgetPassword {
     border:none;
     background-color: #fff;
     color: #1875F0;
